@@ -1,0 +1,114 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+	background: rgb(91, 166, 228);
+	background: linear-gradient(90deg, rgb(158, 163, 240) 20%, rgb(130, 117, 245) 43%, rgb(140, 146, 173) 86%);
+}
+
+.header
+{
+	color: white;
+	font-family: 'Georgia ';
+	font-size: 45px;
+	letter-spacing: 10px;
+	margin-top: 80px;
+}
+.header img
+{
+	width: 100px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(178, 235, 221, 0.8);
+	float: none;
+	border-radius: 15px;
+	font-family: monospace;
+}
+
+.logo
+{
+	width: 80px;
+	margin-top: 30px;
+	border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;
+	border-radius: 30px;
+}
+footer {
+	background-color: rgb(5, 0, 3);
+	color: white;
+	padding: 15px;
+	width:550px;
+	border-width: 8px;
+	border-radius: 10px;
+	font-family: monospace;
+  }
+  .room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(237, 243, 248, 0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(195, 243, 247, 0.8);
+}
+.input_div_message_page label
+{
+	color: rgb(200, 248, 248);
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:rgb(7, 8, 8);
+}
+
